@@ -6,20 +6,20 @@
 
 body {
     font-family: system-ui, sans-serif;
-    background: #0b1f16;
-    color: #e6edf3;
+    background: #6ecbff;
+    color: #0a1a24;
 }
 
 :root {
-    --primary: #5aff8d; 
-    --text: #eafbea; 
+    --primary: #0a1a24; 
+    --text:  #e8f7ff; 
 }
 
 .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #111624;
+    background: #e8f7ff;
     padding: 1.75rem 2rem;
     position: sticky;
     top: 0;
