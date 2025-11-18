@@ -1,0 +1,60 @@
+*, *::before, *::after
+  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body
+  {
+    font-family: system-ui, sans-serif;
+    background: #0b0e14;
+    color: #e6edf3;
+  }
+
+:root
+  {
+    primary: #4f9cff;
+    text: #e6edf3; 
+  }
+
+.site-header
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111624;
+    padding: 0.75rem 1rem;
+    position: sticky;
+    top: 0;
+  }
+
+.logo
+  {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.site-nav ul
+  {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+.site-nav a
+  {
+    text-decoration: none;
+    color: var(--text);
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+
+.site-nav a:hover,
+.site-nav a.active
+  {
+    background: var(--primary);
+    color: #000;
+  }
