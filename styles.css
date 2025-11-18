@@ -1,7 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    margin: 0.5px;
-    padding: 0.5px;
+    margin: 3px;
+    padding: 3px;
 }
 
 body {
@@ -17,7 +17,7 @@ form {
 
 :root {
     --primary: #4f9cff; 
-    --text: #e6edf3; 
+    --text: #d6eaff; 
 }
 
 .site-header {
